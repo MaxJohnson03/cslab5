@@ -1,0 +1,10 @@
+from statistics import mean
+import sys
+templist = sys.argv[1:]
+
+otherlist = list(map(int, templist))
+average = mean(otherlist)
+
+print(max(templist))
+print(min(templist))
+print(average)
