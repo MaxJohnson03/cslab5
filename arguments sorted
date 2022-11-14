@@ -1,0 +1,4 @@
+import sys
+values = sys.argv
+valuessorted = sorted(values, key=len)
+print(valuessorted[0])
